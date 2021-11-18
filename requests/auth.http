@@ -1,0 +1,24 @@
+POST http://localhost:8000/auth-token/
+Content-Type: application/json
+
+{
+  "username": "bran",
+  "password": "3strdell"
+}
+
+###
+
+POST http://localhost:8000/auth-token/
+Content-Type: application/json
+
+{
+  "email": "bran",
+  "password": "3strdell"
+}
+
+###
+GET http://localhost:8000/api/users/me/
+Accept: application/json
+#Authorization: token OirjsHwUDmyuokuMT45XZuYaI2EgfRIbctCMl7Izcv2tpzVGjAcvKwFSLXKfU29r
+Authorization: token bdde5c31b5e4fb1dbbf6bf80e8040f931fac8a21
+###

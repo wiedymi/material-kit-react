@@ -1,42 +1,76 @@
 {
-  "name": "material-kit-react",
-  "author": "Devias IO",
-  "licence": "MIT",
-  "version": "2.0.0",
-  "private": false,
+  "name": "express-ink-react",
+  "author": "Abhishek Kulkarni",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "export": "next export",
-    "lint": "next lint",
-    "lint-fix": "next lint --fix"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "dependencies": {
-    "@emotion/cache": "^11.5.0",
-    "@emotion/react": "^11.5.0",
-    "@emotion/server": "^11.4.0",
-    "@emotion/styled": "^11.3.0",
-    "@mui/icons-material": "^5.0.5",
-    "@mui/lab": "^5.0.0-alpha.53",
-    "@mui/material": "^5.0.6",
-    "@mui/styles": "^5.0.2",
-    "chart.js": "^3.5.1",
-    "date-fns": "^2.25.0",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/styles": "^4.10.0",
+    "@sentry/react": "^6.2.5",
+    "@sentry/tracing": "^6.2.5",
+    "audio-recorder-polyfill": "^0.4.1",
+    "chart.js": "^2.9.4",
+    "clsx": "^1.1.1",
+    "dotenv": "^8.2.0",
     "formik": "^2.1.5",
     "history": "^5.0.0",
-    "next": "^12.0.3-canary.7",
+    "lodash": "^4.17.19",
+    "moment": "^2.27.0",
     "nprogress": "^0.2.0",
     "prop-types": "^15.7.2",
-    "react": "^17.0.2",
-    "react-chartjs-2": "^3.0.4",
-    "react-dom": "^17.0.2",
+    "query-string": "^7.0.0",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^2.10.0",
+    "react-dom": "^16.13.1",
+    "react-feather": "^2.0.8",
+    "react-file-upload-mobile": "^1.0.2",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "react-mason": "^1.1.2",
     "react-perfect-scrollbar": "^1.5.8",
+    "react-redux": "^7.2.2",
+    "react-router": "^6.0.0-beta.0",
+    "react-router-dom": "^6.0.0-beta.0",
+    "react-scripts": "^4.0.0",
+    "react-share": "^4.4.0",
+    "react-voice-recorder": "^2.0.7",
+    "react-webcam": "^5.2.3",
+    "redux": "^4.0.5",
     "uuid": "^8.3.0",
-    "yup": "^0.32.9"
+    "yup": "^0.29.3"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-next": "12.0.3-canary.7"
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "prettier": "^1.19.1"
   }
 }
